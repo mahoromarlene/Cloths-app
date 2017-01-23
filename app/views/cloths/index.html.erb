@@ -1,0 +1,16 @@
+<h1>All cloths</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Color</th>
+    <th>Price</th>
+  </tr>
+    <% @cloths.each do |cloth| %>
+  <tr>
+    <td><%= cloth.name %></td>
+    <td><%= cloth.color %></td>
+    <td><%= cloth.price %></td>
+  </tr>
+    <% end %>
+</table>

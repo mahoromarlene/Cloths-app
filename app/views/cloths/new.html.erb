@@ -1,0 +1,16 @@
+<h1>New cloth</h1>
+
+<%= form_tag "/products", method: :post do %>"
+  <div>
+    Name: <input type="text" name="name">
+  </div>
+  <div>
+    Color: <input type="text" name="color">
+  </div>
+  <div>
+    Price: <input type="text" name="price">
+  </div>
+  <div>
+    <input type="submit" name="Create cloth">
+  </div>
+<% end %>
